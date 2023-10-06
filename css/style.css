@@ -1,0 +1,424 @@
+*{
+    padding: 0px ;
+    margin: 0px ;
+}
+body{
+    font-size: 14px  ;
+    line-height: 1.7em ;
+    font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+    text-decoration: none ;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    width: 100% ;
+    padding: 0px 0px ;
+    background: url(../images/nav.png) center top no-repeat ;
+    background-size: cover ;
+    position: relative;
+
+
+}
+
+.header .nav-link{
+    font-size: 14px ;
+    font-weight: 600 ;
+    color: white;
+    text-transform: uppercase ;
+    margin: 0px 0px 0px 50px ;
+   
+}
+
+.header .nav-link:focus{
+    color: #edc315 ;
+    transition: 1s ;
+}
+.header .nav-link:hover{
+    color: #edc315 ;
+    transition: 1s ;
+}
+
+.header .navbar-nav .nav-link.active{
+    color: #fff;
+    color: #edc315 ;
+    transition: 1s ;
+}
+ 
+.banner{
+    width: 100% ;
+    padding: 300px 0px 220PX;
+    background: url(../images/banner.png) center top no-repeat ;
+    background-size:cover ;
+    text-align: center ;
+    margin: -140px 0px 0px 0px ;
+    z-index: 1 ;
+}
+.banner-title{
+    width: 100% ;
+    margin-top: 50px ;
+}
+.banner-title h1{
+    font-size: 56px ;
+    color: #fff;
+    line-height: 1.7em ;
+    font-weight: 600 ;
+}
+.banner-title p{
+    color: #fff;
+    font-size: 20px ;
+    line-height: 1.7em ;
+
+}
+.banner-title .btn-info{
+    padding: 10px 60px ;
+    border-radius: 50px ;
+    color: #fff;
+    font-size: 20px ;
+    background: #edc315 ;
+    border: 1px solid #edc315 ;
+    line-height: 1.7em ;
+    font-weight: 500 ;
+    margin-top: 20PX ;
+
+}
+.banner-title .btn-info:hover{
+    background: transparent ;
+    border: 1px solid #edc315 ;
+    color: #edc315;
+    transition: 1s ;
+}
+.banner-title .btn-info:focus{
+    background: transparent ;
+    border: 1px solid #edc315 ;
+    color: #edc315;
+    transition: 1s ;
+}
+.about{
+    width: 100% ;
+    padding:20px 0px  70px;
+    text-align: center ;
+    background: #739ee3 ;
+    
+}
+.about h1{
+    font-size: 56px ;
+    color: #fff;
+    line-height: 1.7em ;
+    font-weight: 600 ;
+}
+.about p{
+    color: #fff;
+    font-size: 16px ;
+    line-height: 1.7em ;
+}
+.about-section{
+    width: 100% ;
+    margin: 60px 0px 0px 0px ;
+
+}
+.about-section h1{
+    font-size: 38px ;
+    line-height: 1.7em ;
+    margin-top: 20px ;
+}
+.about-section p{
+    font-size: 20px ;
+    line-height: 1.3em ;
+    font-weight: 400 ;
+}
+.about-short{
+    width:100% ;
+    padding:50px 0px 300PX;
+    background: url(../images/aboutShort.png) center top no-repeat ;
+    background-size: cover ;
+    text-align: center ;
+    
+}
+.about-short h1{
+    font-size: 60px ;
+    color: #fff;
+    line-height: 1.7em ;
+    font-weight: 600 ;
+}
+.about-short p{
+    color: #fff;
+    font-size: 20px ;
+    line-height: 1.7em ;
+}
+.work-box{
+   width: 100%;
+   border: 3px solid #fff;
+   padding-bottom: 45px ;
+   padding-right: 2px ;
+   border-radius: 20px ;
+   margin-top: 120px ;
+}
+
+.work-box h1{
+    margin-top: 43px ;
+}
+.work-box p{
+    line-height: 0px ;
+}
+.feature-short{
+    width: 100% ;
+    padding: 150px 0px ;
+    background: #3181C4 ;
+    
+}
+.feature-short h1{
+    margin-top: 120px ;
+    font-size: 60px ;
+    color: #fff;
+    font-weight: 600 ;
+}
+.feature-short p{
+    font-size: 20px ;
+    color: #fff;
+}
+
+.feature-short .btn-info{
+    padding: 10px 60px ;
+    border-radius: 50px ;
+    color: #fff;
+    font-size: 20px ;
+    background: #edc315 ;
+    border: 1px solid #edc315 ;
+    line-height: 1.7em ;
+    font-weight: 500 ;
+    margin-top: 20PX ;
+}
+.feature-short .btn-info:hover{
+    background: transparent ;
+    border: 1px solid #edc315 ;
+    color: #edc315;
+    transition: 1s ;
+}
+.feature-short .btn-info:focus{
+    background: transparent ;
+    border: 1px solid #edc315 ;
+    color: #edc315;
+    transition: 1s ;
+}
+.feature-long{
+    width: 100% ;
+    padding: 150px 0px ;
+    background: #739ee3;
+}
+.feature-long h1{
+    margin-top: 120px ;
+    font-size: 60px ;
+    color: #fff;
+    font-weight: 600 ;
+   
+}
+.feature-long p{
+    font-size: 20px ;
+    color: #fff;
+    
+}
+.feature-long .btn-info{
+    padding: 10px 60px ;
+    border-radius: 50px ;
+    color: #fff;
+    font-size: 20px ;
+    background: #edc315 ;
+    border: 1px solid #edc315 ;
+    line-height: 1.7em ;
+    font-weight: 500 ;
+    margin-top: 20PX ;
+}
+.feature-long .btn-info:hover{
+    background: transparent ;
+    border: 1px solid #edc315 ;
+    color: #edc315;
+    transition: 1s ;
+}
+.feature-long .btn-info:focus{
+    background: transparent ;
+    border: 1px solid #edc315 ;
+    color: #edc315;
+    transition: 1s ;
+}
+.priching{
+    width: 100% ;
+    padding: 40px 0px  50px;
+    background: #3181C4;
+    text-align: center ;
+}
+.priching h1{
+    font-size: 60px ;
+    color: #fff;
+    font-weight: 600 ;
+    line-height: 1.7em ;
+}
+.priching p{
+    font-size: 20px ;
+    color: #fff;
+    
+}
+.priching-box{
+    width: 100% ;
+    padding: 30px 0px 60px 0px;
+    border: 1px solid #fff ;
+    background: #fff ;
+    margin: 40px 0px ;
+}
+.priching-box img{
+    margin: 30px 0px ;
+}
+.priching-box h4{
+    color: #739ee3;
+    font-size: 40px ;
+    margin-top: 10px ;
+    font-weight: 600 ;
+    text-transform: capitalize ;
+}
+.priching-box h1{
+    color: #739ee3;
+    font-size: 40px ;
+}
+.priching-box p{
+    color: #739ee3;
+}
+.priching-box:hover{
+    background: transparent ;
+    
+} 
+.priching-box:focus{
+    background: transparent ;
+    transition: 1s ;
+    
+}
+.priching .btn-info{
+    padding: 10px 60px ;
+    border-radius: 50px ;
+    color: #fff;
+    font-size: 20px ;
+    background: #edc315 ;
+    border: 1px solid #edc315 ;
+    line-height: 1.7em ;
+    font-weight: 500 ;
+    margin-top: 20PX ;
+}
+.priching .btn-info:hover{
+    background: transparent ;
+    border: 1px solid #edc315 ;
+    color: #edc315;
+    transition: 1s ;
+}
+.priching .btn-info:focus{
+    background: transparent ;
+    border: 1px solid #edc315 ;
+    color: #edc315;
+    transition: 1s ;
+}
+.testimonial{
+    width: 100% ;
+    padding: 50px 0px 90px;
+    background:#5B9FE6 ;
+   
+}
+.testimonial .title{
+    text-align: center ;
+    padding-bottom: 100px ;
+}
+.testimonial .title h1{
+    font-size: 60px ;
+    color: #fff;
+    font-weight: 600 ;
+    line-height: 1.7em ;
+   
+}
+.testimonial .title p{
+    font-size: 20px  ;
+    font-weight: 600 ;
+    color: #fff;
+    
+   
+}
+.testimonial  h1{
+    font-size: 40px ;
+    font-weight: 600 ;
+    color: #fff;
+    line-height: 1.7em ;
+   
+}
+.testimonial p{
+    font-size: 16px  ;
+    color: #fff;
+    font-weight: 600 ;
+    line-height: 1.7em ;
+}
+.testimonial img{
+    margin: 15px 0px 0px 0px ;
+}
+.doctor{
+    width: 100% ;
+    padding: 300px 0px;
+    background: url(../images/dr.png) center no-repeat ;
+    background-size: cover ;
+  
+}
+.doctor h1{
+    font-size: 40px ;
+    text-align: center ;
+    color: #fff;
+    margin: 15px 0px 0px ;
+    font-weight: 600 ;
+    
+}
+.doctor p{
+    line-height: 1.7em ;
+    font-size: 25px  ;
+    color: #fff;
+    text-align: center ;
+}
+.footer{
+    width: 100% ;
+    padding:80px 0px 50px;
+    background: #343434;
+}
+.footer h1{
+    font-size: 36px  ;
+    color: #fff;
+    line-height: 1.7em ;
+}
+.footer p{
+    font-size: 16px ;
+    color: #fff;
+    line-height: 1.7em ;
+}
+.footer .social-icon{
+    width: 100% ;
+    color: #fff;
+    font-size: 25px ;
+}
+.footer .social-icon .fa{
+    margin: 0px 20px 0px 0px ;
+}
+.footer .social-icon .fa:hover{
+    color: #edc315;
+    transition: 1s ;
+}
+.footer ul{
+    padding: 0px ;
+}
+  
+.footer ul li{
+    padding: 0px ;
+    list-style: none ;
+    color: #fff;
+    font-size: 16px ;
+    margin: 0px 0px 0px 0px ;
+}
+.footer .active{
+    font-size: 20px ;
+    font-weight: 600 ;
+}
+
+

@@ -1,0 +1,538 @@
+
+/* css media queary start */
+
+
+/* *****
+* screen resulation : 279px to 379px 
+* most of the folding mobile phone -- like galaxy fold
+*/
+
+@media (min-width: 279px) and (max-width: 319px) {
+    /* css start  */
+    
+    
+    
+    /* css end*/
+    }
+    
+    /* css media queary start */
+
+
+/* css media queary start */
+
+
+/* *****
+* screen resulation : 329px to 480px 
+* most of the mobile phone 
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* css start  */
+    .header .navbar-expand-lg .navbar-nav .nav-link{
+        margin: 0px ;
+        font-size: 14px ;
+   }
+    .banner{
+        padding: 30px 0px ;
+    }
+    .banner h1{
+        font-size: 24px ;
+    }
+    .banner-title p {
+        color: #fff;
+        font-size: 14px;
+        line-height: 1.7em;
+    }
+    .banner-title {
+        width: 100%;
+        margin-top: px;
+        margin: 150px 0px 0px 0px;
+    }
+    .banner-title .btn-info {
+        padding: 5px 20px;
+        margin-top: 10PX;
+    }
+    .header img{
+         width: 100px; 
+    }
+    .about{
+        padding: 30px 0px ;
+    }
+    .about h1 {
+        font-size: 26px;
+    }
+    .about p {
+        font-size: 14px;
+    }
+    .about-section {
+        margin: 20px 0px 0px 0px;
+    }
+    .about-short{
+        padding: 30px 0px ;
+    }
+    .about-short h1 {
+        font-size: 26px;
+    }
+    .about-short p {
+        font-size: 14px;
+    }
+    .work-box {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .feature-short {
+        padding: 30px 0px;
+    }
+    .feature-short h1 {
+        margin-top: 0px;
+        font-size: 26px;
+        text-align: center ;
+    }
+    .feature-short p{
+         font-size: 14px ;
+        text-align: center ;    
+    } 
+    .feature-short .btn-info {
+        padding: 5px 20px;
+        font-size: 14px ;
+        margin: 10px 0px 20px 120px;
+    }
+    .feature-long{
+        padding: 30px 0px;
+    }
+    .feature-long h1 {
+        margin-top: 0px;
+        font-size: 26px;
+        text-align: center ;
+    }
+    .feature-long p{
+         font-size: 14px ;
+        text-align: center ;    
+    } 
+    .feature-long .btn-info {
+        padding: 5px 20px;
+        font-size: 14px ;
+        margin: 10px 0px 20px 120px;
+    }
+    .priching{
+        padding: 30px 0px ;
+    }
+    .priching h1{
+        font-size:26px ;
+    }
+    .priching p{
+        font-size: 12px ;
+    }
+    .priching-box {
+        padding: 20px 0px 30px 0px;
+        margin: 20px 0px;
+    }
+    .priching-box h4 {
+        font-size: 26px;
+        margin-top: 5px;
+
+    }
+    .priching .btn-info {
+        padding: 5px 20px;
+        font-size: 14px ;
+        margin-top: 20PX;
+    }
+    .testimonial{
+        padding: 30px 0px ;
+    }
+    .testimonial .title h1 {
+        font-size: 26px;
+    }
+    .testimonial .title p {
+        font-size: 14px;
+    }
+    .testimonial .title {
+        padding-bottom: 10px;
+    }
+    .testimonial h1 {
+        font-size: 26px;
+
+    }
+    .testimonial p {
+        font-size: 14px;
+    }
+    .doctor {
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .doctor p {
+        font-size: 14px;
+    }
+    .doctor h1 {
+        font-size: 26px;
+        margin: 10px 0px 0px;
+    }
+    .footer {
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .footer h1 {
+        font-size: 26px;
+    }
+    .footer p {
+        font-size: 14px;
+    }
+    .footer .social-icon {
+        font-size: 20px;
+        margin: 0px 0px 20px;
+    }
+
+
+
+
+
+
+    /* css end*/
+    }
+    
+    /* css media queary start */
+
+
+/* css media queary start */
+
+
+/* *****
+* screen resulation : 481px to 767px 
+* most of the mobile phone and low resulation tab
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* css start  */
+    .header .navbar-expand-lg .navbar-nav .nav-link{
+        margin: 0px ;
+        font-size: 15px ;
+   }
+    .banner{
+        padding: 35px 0px ;
+    }
+    .banner h1{
+        font-size: 25px ;
+    }
+    .banner-title p {
+        color: #fff;
+        font-size: 15px;
+        line-height: 1.7em;
+    }
+    .banner-title {
+        margin: 155px 0px 0px 0px;
+    }
+    .banner-title .btn-info {
+        padding: 8px 25px;
+        margin-top: 15px;
+    }
+    .header img{
+         width: 100px; 
+    }
+    .about{
+        padding: 35px 0px ;
+    }
+    .about h1 {
+        font-size: 27px;
+    }
+    .about p {
+        font-size: 15px;
+    }
+    .about-section {
+        margin: 25px 0px 0px 0px;
+    }
+    .about-short{
+        padding: 35px 0px ;
+    }
+    .about-short h1 {
+        font-size: 27px;
+    }
+    .about-short p {
+        font-size: 15px;
+    }
+    .work-box {
+        margin-top: 35px;
+    }
+    .feature-short {
+        padding: 35px 0px;
+    }
+    .feature-short h1 {
+        margin-top: 0px;
+        font-size: 27px;
+        text-align: center ;
+    }
+    .feature-short p{
+         font-size: 15px ;
+        text-align: center ;    
+    } 
+    .feature-short .btn-info {
+        padding: 8px 25px;
+        font-size: 15px ;
+        margin: 15px 0px 25px 125px;
+    }
+    .feature-long{
+        padding: 35px 0px;
+    }
+    .feature-long h1 {
+        margin-top: 0px;
+        font-size: 27px;
+        text-align: center ;
+    }
+    .feature-long p{
+         font-size: 15px ;
+        text-align: center ;    
+    } 
+    .feature-long .btn-info {
+        padding: 8px 25px;
+        font-size: 15px ;
+        margin: 15px 0px 25px 125px;
+    }
+    .priching{
+        padding: 35px 0px ;
+    }
+    .priching h1{
+        font-size:27px ;
+    }
+    .priching p{
+        font-size: 13px ;
+    }
+    .priching-box {
+        padding: 25px 0px 35px 0px;
+        margin: 25px 0px;
+    }
+    .priching-box h4 {
+        font-size: 27px;
+        margin-top: 8px;
+
+    }
+    .priching .btn-info {
+        padding: 8px 25px;
+        font-size: 15px ;
+        margin-top: 25PX;
+    }
+    .testimonial{
+        padding: 35px 0px ;
+    }
+    .testimonial .title h1 {
+        font-size: 27px;
+    }
+    .testimonial .title p {
+        font-size: 15px;
+    }
+    .testimonial .title {
+        padding-bottom: 15px;
+    }
+    .testimonial h1 {
+        font-size: 27px;
+
+    }
+    .testimonial p {
+        font-size: 15px;
+    }
+    .doctor {
+        width: 100%;
+        padding: 35px 0px;
+    }
+    .doctor p {
+        font-size: 15px;
+    }
+    .doctor h1 {
+        font-size: 27px;
+        margin: 15px 0px 0px;
+    }
+    .footer {
+        width: 100%;
+        padding: 35px 0px;
+    }
+    .footer h1 {
+        font-size: 27px;
+    }
+    .footer p {
+        font-size: 15px;
+    }
+    .footer .social-icon {
+        font-size: 22px;
+        margin: 0px 0px 25px;
+    }
+    
+    
+    /* css end*/
+    }
+    
+    /* css media queary start */
+
+
+/* css media queary start */
+
+
+/* *****
+* screen resulation : 768px to 1024px 
+* most of the tablet ipads etc
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* css start  */
+    .header .navbar-expand-lg .navbar-nav .nav-link{
+        margin: 0px ;
+        font-size: 18px ;
+   }
+    .banner{
+        padding: 50px 0px ;
+    }
+    .banner h1{
+        font-size: 28px ;
+    }
+    .banner-title p {
+        color: #fff;
+        font-size: 18px;
+        line-height: 1.7em;
+    }
+    .banner-title {
+        margin: 170px 0px 0px 0px;
+    }
+    .banner-title .btn-info {
+        padding: 10px 40px;
+        margin-top: 30px;
+    }
+    .header img{
+         width: 100px; 
+    }
+    .about{
+        padding: 50px 0px ;
+    }
+    .about h1 {
+        font-size: 32px;
+    }
+    .about p {
+        font-size: 18px;
+    }
+    .about-section {
+        margin: 40px 0px 0px 0px;
+    }
+    .about-short{
+        padding: 50px 0px ;
+    }
+    .about-short h1 {
+        font-size: 32px;
+    }
+    .about-short p {
+        font-size: 18px;
+    }
+    .work-box {
+        margin-top: 50px;
+    }
+    .feature-short {
+        padding: 50px 0px;
+    }
+    .feature-short h1 {
+        margin-top: 0px;
+        font-size: 32px;
+        text-align: center ;
+    }
+    .feature-short p{
+         font-size: 18px ;
+        text-align: center ;    
+    } 
+    .feature-short img {
+        width: 100%;
+    }
+    .feature-short .btn-info {
+        padding: 10px 40px;
+        font-size: 18px ;
+        margin: 30px 0px 40px 255px;
+    }
+    .feature-long{
+        padding: 50px 0px;
+    }
+    .feature-long img{
+        width: 100% ;
+    }
+    .feature-long h1 {
+        margin-top: 0px;
+        font-size: 32px;
+        text-align: center ;
+    }
+    .feature-long p{
+         font-size: 18px ;
+        text-align: center ;    
+    } 
+    .feature-long .btn-info {
+        padding: 10px 40px;
+        font-size: 18px ;
+        margin: 30px 0px 40px 255px;
+    }
+    .priching{
+        padding: 50px 0px ;
+    }
+    .priching h1{
+        font-size:32px ;
+    }
+    .priching p{
+        font-size: 18px ;
+    }
+    .priching-box {
+        padding: 40px 0px 50px 0px;
+        margin: 40px 0px;
+    }
+    .priching-box h4 {
+        font-size: 32px;
+        margin-top: 15px;
+
+    }
+    .priching .btn-info {
+        padding: 10px 40px;
+        font-size: 18px ;
+        margin-top: 40PX;
+    }
+    .testimonial{
+        padding: 50px 0px ;
+    }
+    .testimonial .title h1 {
+        font-size: 32px;
+    }
+    .testimonial .title p {
+        font-size: 18px;
+    }
+    .testimonial .title {
+        padding-bottom: 30px;
+    }
+    .testimonial h1 {
+        font-size: 32px;
+
+    }
+    .testimonial p {
+        font-size: 18px;
+    }
+    .doctor {
+        width: 100%;
+        padding: 50px 0px;
+    }
+    .doctor p {
+        font-size: 18px;
+    }
+    .doctor h1 {
+        font-size: 32px;
+        margin: 30px 0px 0px;
+    }
+    .footer {
+        width: 100%;
+        padding: 50px 0px;
+    }
+    .footer h1 {
+        font-size: 32px;
+    }
+    .footer p {
+        font-size: 18px;
+    }
+    .footer .social-icon {
+        font-size: 30px;
+        margin: 0px 0px 40px;
+    }
+    
+    
+    
+    
+    /* css end*/
+    }
+    
+    /* css media queary start */
+
